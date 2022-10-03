@@ -56,7 +56,7 @@ class Test_WPSI_Admin_Enqueue_Scripts extends WP_UnitTestCase {
 		// Run function to enqueue styles and scripts.
 		$admin_enqueue->enqueue_styles_and_scripts();
 
-		$retult = ( wp_style_is('wpsi-admin') && wp_script_is('jquery-ui-sortable') && wp_script_is('wpsi-admin') ) ? true : false ;
+		$retult = ( wp_style_is( 'wpsi-admin' ) && wp_script_is( 'jquery-ui-sortable' ) && wp_script_is( 'wpsi-admin' ) ) ? true : false;
 
 		// Assertion.
 		$this->assertTrue( $retult );
