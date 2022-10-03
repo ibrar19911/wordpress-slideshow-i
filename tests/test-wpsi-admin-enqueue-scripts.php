@@ -37,7 +37,7 @@ class Test_WPSI_Admin_Enqueue_Scripts extends WP_UnitTestCase {
 
 		$admin_enqueue = new WPSI_Admin_Enqueue_Scripts();
 
-		// Check if register_menu_pages is hooked correctly.
+		// Check if function is hooked correctly with admin_enqueue_scripts of not.
 		$register_menu_pages_hooked = has_action( 'admin_enqueue_scripts', array( $admin_enqueue, 'enqueue_styles_and_scripts' ) );
 
 		$result = ( 10 === $register_menu_pages_hooked ) ? true : false;
