@@ -57,8 +57,6 @@ if ( ! current_user_can( 'manage_options' ) ) {
 
 		</div>
 
-		<input type="hidden" name="action" value="update" />
-
 		<?php submit_button(); ?>
 
 	</form>

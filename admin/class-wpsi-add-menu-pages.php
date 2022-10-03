@@ -65,7 +65,7 @@ if ( ! class_exists( 'WPSI_Add_Menu_Pages' ) ) {
 		 */
 		public function images_ids_field() {
 			$img_ids = esc_attr( get_option( 'wpsi_images_ids' ) );
-			echo '<input type="text" name="wpsi_images_ids" id="wpsi_images_ids" value="' . esc_attr( $img_ids ) . '">';
+			echo '<input type="hidden" name="wpsi_images_ids" id="wpsi_images_ids" value="' . esc_attr( $img_ids ) . '">';
 		}
 
 	}

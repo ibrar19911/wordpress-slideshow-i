@@ -24,6 +24,4 @@ define( 'WPSI_JS_URL', plugins_url( 'wordpress-slideshow-i' ) . '/js/' );
 
 // Inlude files.
 include_once 'admin/class-wpsi-add-menu-pages.php';
-
-
-// echo menu_page_url();
+include_once 'admin/class-wpsi-admin-enqueue-scripts.php';
