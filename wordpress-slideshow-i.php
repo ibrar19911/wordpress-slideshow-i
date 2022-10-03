@@ -21,8 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Important Constants
 define( 'WPSI_CSS_URL', plugins_url( 'wordpress-slideshow-i' ) . '/css/' );
 define( 'WPSI_JS_URL', plugins_url( 'wordpress-slideshow-i' ) . '/js/' );
+define( 'WPSI_LIB_URL', plugins_url( 'wordpress-slideshow-i' ) . '/lib/' );
 
 // Inlude files.
 include_once 'admin/class-wpsi-add-menu-pages.php';
 include_once 'admin/class-wpsi-admin-enqueue-scripts.php';
 include_once 'includes/class-wpsi-shortcodes.php';
+include_once 'includes/class-wpsi-wp-enqueue-scripts.php';
