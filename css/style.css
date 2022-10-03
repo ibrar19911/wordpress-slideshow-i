@@ -1,0 +1,8 @@
+.wpsi-slideshow {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.wpsi-slideshow .wpsi-slide > img {
+    width: 100%;
+}
